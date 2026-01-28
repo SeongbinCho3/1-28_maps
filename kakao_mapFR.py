@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 # =========================================================
 # 1) Env + Page
 # =========================================================
-load_dotenv()
-KAKAO_API_KEY = os.getenv("KAKAO_MAP_API_KEY")     # Kakao JS key
-EXCHANGE_KEY = os.getenv("EXCHANGE_RATE_KEY")     # exchangerate-api.com key
+
+KAKAO_API_KEY = st.secrets["KAKAO_MAP_API_KEY"]
+EXCHANGE_KEY = st.secrets["EXCHANGE_RATE_KEY"]
 
 st.set_page_config(page_title="Guide Intégré : Jeju + Séoul (FR)", layout="wide")
 
