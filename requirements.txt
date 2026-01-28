@@ -3,5 +3,7 @@ folium
 streamlit-folium
 python-dotenv
 pandas
+plotly
+alpha_vantage
 
 
