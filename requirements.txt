@@ -5,5 +5,5 @@ python-dotenv
 pandas
 plotly
 alpha_vantage
-
+requests
 
